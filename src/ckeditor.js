@@ -20,7 +20,7 @@ import ImageuploadPlugin from '@ckeditor/ckeditor5-image/src/imageupload';
 import LinkPlugin from '@ckeditor/ckeditor5-link/src/link';
 import ListPlugin from '@ckeditor/ckeditor5-list/src/list';
 import ParagraphPlugin from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import MarkdownPlugin from './markdown'
+import MarkdownPlugin from './markdown';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -52,6 +52,7 @@ ClassicEditor.build = {
 				'bold',
 				'italic',
 				'link',
+				'code',
 				'bulletedList',
 				'numberedList',
 				'imageUpload',

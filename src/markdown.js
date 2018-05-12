@@ -4,4 +4,4 @@ const Markdown = (editor) => {
 	editor.data.processor = new GFMDataProcessor();
 }
 
-export Markdown;
+export default Markdown;
