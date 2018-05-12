@@ -15,7 +15,6 @@ module.exports = {
 	// Plugins to include in the build.
 	plugins: [
 		'@ckeditor/ckeditor5-essentials/src/essentials',
-
 		'@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
 		'@ckeditor/ckeditor5-autoformat/src/autoformat',
 		'@ckeditor/ckeditor5-basic-styles/src/bold',
