@@ -9,6 +9,7 @@ import UploadadapterPlugin from '@ckeditor/ckeditor5-adapter-ckfinder/src/upload
 import AutoformatPlugin from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import BoldPlugin from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import ItalicPlugin from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import CodePlugin from '@ckeditor/ckeditor5-basic-styles/src/code';
 import BlockquotePlugin from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import EasyimagePlugin from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import HeadingPlugin from '@ckeditor/ckeditor5-heading/src/heading';
@@ -20,7 +21,7 @@ import ImageuploadPlugin from '@ckeditor/ckeditor5-image/src/imageupload';
 import LinkPlugin from '@ckeditor/ckeditor5-link/src/link';
 import ListPlugin from '@ckeditor/ckeditor5-list/src/list';
 import ParagraphPlugin from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import MarkdownPlugin from './markdown';
+import MarkdownPlugin from '@iamjstates/ckeditor-turndown/src/markdown';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -31,6 +32,7 @@ ClassicEditor.build = {
 		AutoformatPlugin,
 		BoldPlugin,
 		ItalicPlugin,
+		CodePlugin,
 		BlockquotePlugin,
 		EasyimagePlugin,
 		HeadingPlugin,
