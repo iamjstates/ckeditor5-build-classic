@@ -19,6 +19,7 @@ module.exports = {
 		'@ckeditor/ckeditor5-autoformat/src/autoformat',
 		'@ckeditor/ckeditor5-basic-styles/src/bold',
 		'@ckeditor/ckeditor5-basic-styles/src/italic',
+		'@ckeditor/ckeditor5-basic-styles/src/code',
 		'@ckeditor/ckeditor5-block-quote/src/blockquote',
 		'@ckeditor/ckeditor5-easy-image/src/easyimage',
 		'@ckeditor/ckeditor5-heading/src/heading',
@@ -29,8 +30,7 @@ module.exports = {
 		'@ckeditor/ckeditor5-image/src/imageupload',
 		'@ckeditor/ckeditor5-link/src/link',
 		'@ckeditor/ckeditor5-list/src/list',
-		'@ckeditor/ckeditor5-paragraph/src/paragraph',
-		'./markdown'
+		'@ckeditor/ckeditor5-paragraph/src/paragraph'
 	],
 
 	// Editor config.
