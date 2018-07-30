@@ -53,6 +53,9 @@
     "webpack": "^3.11.0",
     "webpack-sources": "1.0.1"
   },
+  "dependencies": {
+    "@ckeditor/ckeditor5-markdown-gfm": "^10.0.0"
+  },
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.0.0"
